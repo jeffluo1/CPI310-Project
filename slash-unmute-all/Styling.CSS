@@ -1,0 +1,137 @@
+html{line-height: }
+header{background-color:black;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 8%;
+    }
+
+body{background-color: black;
+color:white;
+}
+
+ul,li{
+background-color: white;
+color:white;}
+
+li{
+    background-color: black;
+display:inline;
+padding:20px 20px;
+float: right;
+display: block;
+color:black;
+text-align:justify;
+font-family:monospace;
+font-size: 17px;
+font-color:white}
+
+a{color: white;
+text-align: center;
+text-decoration: none }
+
+a:hover{color:c13a82;}
+.index-body{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align:center;
+    background-image:url("images/DSC_1291.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;}
+
+h1{color: whitesmoke;
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: 1;
+    font-family:monospace;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+    line-height: .5;
+    margin-bottom: 1;
+    padding}
+
+
+button{
+  background:black;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:80px;
+Width: 200px;
+font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+
+    font-family: monospace;
+}
+button:hover{
+  background: white;
+  color: #c13a82;
+}
+
+h1:hover{color:c13a82;}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:4px;
+  width:0;
+  background: #c13a82;
+  transition:1000ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+    transition:1200ms ease all;}
+.bio{font-family: monospace;
+    font-size: 10pt;
+    text-align: right;
+    color:white;
+     position: absolute;
+    top: 15%;
+    right: 6%;
+    width: 47%;
+    height: 60%}
+
+.contact{    
+background-color: black;
+display:inline;
+padding:20px 20px;
+float: left;
+display: block;
+color:black;
+text-align:justify;
+font-family:monospace;
+font-size: 17px;
+font-color:white}
+
+
+
+
+.logo{content: url(images/nonlogo.png);
+height: 120px;
+width: 120px;}
+.logo:hover{content: url(images/logo.png);}
+
+.home{content: url("images/home%20icon.png");
+height: 30px;
+width:30px;}
+
+.home:hover{content: url("images/home%20icon_h.png");
+height: 30px;
+width:30px;}
+
+.portrait{padding-left: 15%;
+padding-top: 0%;
+padding-bottom: 5%;}
