@@ -145,6 +145,14 @@ width:30px;}
 .portrait{padding-left: 15%;
 padding-top: 0%;
 padding-bottom: 5%;}
+    
+.home{content: url("images/home%20icon.png");
+height: 30px;
+width:30px;}
+
+.home:hover{content: url("images/home%20icon_h.png");
+height: 30px;
+width:30px;}
 
 * {
   box-sizing: border-box;
