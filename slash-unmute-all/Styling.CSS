@@ -63,6 +63,17 @@ h2 {
     margin-bottom: 1;
     padding
 }
+h3 {
+    color: whitesmoke;
+	font-size: 20px;
+    font-weight: 1;
+    font-family:monospace;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+    line-height: .5;
+    margin-bottom: 1;
+    padding
+}
 
 button{
   background:black;
@@ -145,6 +156,14 @@ width:30px;}
 .portrait{padding-left: 15%;
 padding-top: 0%;
 padding-bottom: 5%;}
+    
+.home{content: url("images/home%20icon.png");
+height: 30px;
+width:30px;}
+
+.home:hover{content: url("images/home%20icon_h.png");
+height: 30px;
+width:30px;}
 
 * {
   box-sizing: border-box;
@@ -188,7 +207,7 @@ padding-bottom: 5%;}
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid #FF9F55;
+  border: 4px solid purple;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
