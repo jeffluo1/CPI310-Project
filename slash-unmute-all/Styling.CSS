@@ -63,6 +63,17 @@ h2 {
     margin-bottom: 1;
     padding
 }
+h3 {
+    color: whitesmoke;
+	font-size: 20px;
+    font-weight: 1;
+    font-family:monospace;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+    line-height: .5;
+    margin-bottom: 1;
+    padding
+}
 
 button{
   background:black;
