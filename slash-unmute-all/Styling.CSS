@@ -52,7 +52,17 @@ h1{color: whitesmoke;
     line-height: .5;
     margin-bottom: 1;
     padding}
-
+h2 {
+	color: whitesmoke;
+	font-size: 32px;
+    font-weight: 1;
+    font-family:monospace;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+    line-height: .5;
+    margin-bottom: 1;
+    padding
+}
 
 button{
   background:black;
@@ -171,7 +181,7 @@ padding-bottom: 5%;}
 }
 
 /* The circles on the timeline */
-.container::after {
+.tcontainer::after {
   content: '';
   position: absolute;
   width: 25px;
