@@ -57,7 +57,6 @@ h2 {
 	font-size: 32px;
     font-weight: 1;
     font-family:monospace;
-    text-shadow: 5px 5px 5px #dedfe0;
     text-align: center;
     line-height: .5;
     margin-bottom: 1;
@@ -80,15 +79,14 @@ button{
   color:black;
   border:none;
   position:relative;
-  height:80px;
-Width: 200px;
-font-size:1.6em;
-  padding:0 2em;
+  height:200px;
+  Width: 350px;
+  font-size:3em;
   cursor:pointer;
   transition:800ms ease all;
   outline:none;
 
-    font-family: monospace;
+font-family: monospace;
 }
 button:hover{
   background: black;
@@ -211,6 +209,16 @@ width:30px;}
   top: 15px;
   border-radius: 50%;
   z-index: 1;
+}
+
+.para-spec{
+    text-align: left;
+    font-size: 140%;
+}
+
+.para-bio{
+    text-align: left;
+    font-size: 100%;
 }
 
 /* Place the container to the left */
