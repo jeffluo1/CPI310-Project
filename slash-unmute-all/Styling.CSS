@@ -1,8 +1,6 @@
 html{line-height: }
-header{background-color:#dedfe0;
+header{background-color:white;
     text-align: left;
-    padding-left: 10%;
-    padding-right: 8%;
     }
 
 body{background-color: #dedfe0;
@@ -14,9 +12,9 @@ background-color: black;
 color:black;}
 
 li{
-    background-color: #dedfe0;
+    background-color: white;
 display:inline;
-padding:20px 20px;
+padding:20px;
 float: right;
 display: block;
 color:#dedfe0;
