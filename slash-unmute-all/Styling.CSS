@@ -1,17 +1,28 @@
+<<<<<<< HEAD
 html{line-height: }
 header{background-color:white;
     text-align: left;
     }
+=======
+html{line-height:}
 
-body{background-color: #dedfe0;
-color:black;
-}
+header{
+	background-color:#dedfe0;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 8%;}
+>>>>>>> 8ca7b9a731aed184640aa1c221583014fd9fef04
+
+body{
+	background-color: #dedfe0;
+	color:black;}
 
 ul,li{
-background-color: black;
-color:black;}
+	background-color: black;
+	color:black;}
 
 li{
+<<<<<<< HEAD
     background-color: white;
 display:inline;
 padding:20px;
@@ -22,6 +33,18 @@ text-align:justify;
 font-family:monospace;
 font-size: 17px;
 font-color:black}
+=======
+	background-color: #dedfe0;
+	display:inline;
+	padding:20px 20px;
+	float: right;
+	display: block;
+	color:#dedfe0;
+	text-align:justify;
+	font-family:monospace;
+	font-size: 17px;
+	font-color:black}
+>>>>>>> 8ca7b9a731aed184640aa1c221583014fd9fef04
 
 a{color: black;
 text-align: center;
@@ -127,41 +150,32 @@ button:hover:before,button:hover:after{
 background-color: #dedfe0;
 display:inline;
 padding:20px 20px;
-float: left;
-display: block;
+float:left;
+display:block;
 color:#dedfe0;
 text-align:justify;
 font-family:monospace;
-font-size: 17px;
-font-color:black}
-
-
-
+font-size:17px;
+font-color:black;}
 
 .logo{content: url(images/nonlogo.png);
-height: 120px;
-width: 120px;}
-.logo:hover{content: url(images/logo.png);}
+height:120px;
+width:120px;}
+.logo:hover{content:url(images/logo.png);}
 
 .home{content: url("images/home%20icon.png");
-height: 30px;
-width:30px;}
+height:25px;
+width:25px;}
 
 .home:hover{content: url("images/home%20icon_h.png");
-height: 30px;
-width:30px;}
+height:25px;
+width:25px;}
 
 .portrait{padding-left: 15%;
 padding-top: 0%;
 padding-bottom: 5%;}
     
-.home{content: url("images/home%20icon.png");
-height: 30px;
-width:30px;}
 
-.home:hover{content: url("images/home%20icon_h.png");
-height: 30px;
-width:30px;}
 
 * {
   box-sizing: border-box;
