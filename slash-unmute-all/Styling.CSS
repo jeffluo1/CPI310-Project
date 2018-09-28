@@ -11,8 +11,6 @@ header{
     text-align: left;
     padding-left: 10%;
     padding-right: 8%;}
->>>>>>> 8ca7b9a731aed184640aa1c221583014fd9fef04
-
 body{
 	background-color: #dedfe0;
 	color:black;}
@@ -22,29 +20,17 @@ ul,li{
 	color:black;}
 
 li{
-<<<<<<< HEAD
-    background-color: white;
+background-color: #dedfe0;
 display:inline;
-padding:20px;
+padding:20px 20px;
 float: right;
 display: block;
 color:#dedfe0;
 text-align:justify;
 font-family:monospace;
 font-size: 17px;
-font-color:black}
-=======
-	background-color: #dedfe0;
-	display:inline;
-	padding:20px 20px;
-	float: right;
-	display: block;
-	color:#dedfe0;
-	text-align:justify;
-	font-family:monospace;
-	font-size: 17px;
-	font-color:black}
->>>>>>> 8ca7b9a731aed184640aa1c221583014fd9fef04
+font-color:black;
+}
 
 a{color: black;
 text-align: center;
