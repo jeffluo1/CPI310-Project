@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+html{line-height: }
+header{background-color:white;
+    text-align: left;
+    }
+=======
 html{line-height:}
 
 header{
@@ -5,6 +11,7 @@ header{
     text-align: left;
     padding-left: 10%;
     padding-right: 8%;}
+>>>>>>> 8ca7b9a731aed184640aa1c221583014fd9fef04
 
 body{
 	background-color: #dedfe0;
@@ -15,6 +22,18 @@ ul,li{
 	color:black;}
 
 li{
+<<<<<<< HEAD
+    background-color: white;
+display:inline;
+padding:20px;
+float: right;
+display: block;
+color:#dedfe0;
+text-align:justify;
+font-family:monospace;
+font-size: 17px;
+font-color:black}
+=======
 	background-color: #dedfe0;
 	display:inline;
 	padding:20px 20px;
@@ -25,6 +44,7 @@ li{
 	font-family:monospace;
 	font-size: 17px;
 	font-color:black}
+>>>>>>> 8ca7b9a731aed184640aa1c221583014fd9fef04
 
 a{color: black;
 text-align: center;
