@@ -77,19 +77,18 @@ h3 {
 }
 
 button{
-  background:#f8b195;
-  color:black;
-  border:none;
-  position:relative;
-  height:80px;
-Width: 200px;
-font-size:1.6em;
-  padding:0 2em;
-  cursor:pointer;
-  transition:800ms ease all;
-  outline:none;
-
-    font-family: monospace;
+	background:#9ad6d4;
+	color:black;
+	border:none;
+	position:relative;
+	height:80px;
+	width: 200px;
+	font-size:2em;
+	padding:0;
+	cursor:pointer;
+	transition:800ms ease all;
+	outline:none;
+	font-family: monospace;
 }
 button:hover{
   background: black;
@@ -114,7 +113,7 @@ button:after{
   bottom:0;
 }
 button:hover:before,button:hover:after{
-  width:100%;
+	width:100%;
     transition:1200ms ease all;}
 .bio{font-family: monospace;
     font-size: 10pt;
