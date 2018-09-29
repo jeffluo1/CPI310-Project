@@ -38,6 +38,7 @@ a:hover{color:f67280;}
     align-self: center;
     align-content: center;
     text-align:center;
+    padding-bottom:2%;
 }
 
 h1{color: blacksmoke;
@@ -49,7 +50,7 @@ h1{color: blacksmoke;
     text-align: center;
     line-height: .5;
     margin-bottom: 1;
-    padding}
+}
 h2 {
 	color: blacksmoke;
 	font-size: 32px;
@@ -59,7 +60,6 @@ h2 {
     text-align: center;
     line-height: .5;
     margin-bottom: 1;
-    padding
 }
 h3 {
     color: blacksmoke;
@@ -70,7 +70,6 @@ h3 {
     text-align: center;
     line-height: 0.75em;
     margin-top: 1.5em;
-    padding
 }
 h4 {
     color: blacksmoke;
@@ -136,12 +135,14 @@ button:after{
 button:hover:before,button:hover:after{
 	width:100%;
     transition:1200ms ease all;}
-.bio{font-family: monospace;
+
+.bio{
+    font-family: monospace;
     font-size: 10pt;
     text-align: right;
     color:black;
      position: absolute;
-    top: 15%;
+    margin-top: 0%;
     right: 6%;
     width: 47%;
     height: 60%}
@@ -171,9 +172,10 @@ width:25px;}
 height:25px;
 width:25px;}
 
-.portrait{padding-left: 15%;
-padding-top: 0%;
-padding-bottom: 5%;}
+.portrait{
+    padding-left: 15%;
+    padding-top: 1%;
+    padding-bottom: 5%;}
     
 
 
