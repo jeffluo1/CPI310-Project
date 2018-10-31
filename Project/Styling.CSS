@@ -12,12 +12,11 @@ color:mediumpurple;
 li{
     background-color: white;
 display:inline;
-padding: 10px;
+padding: 12px;
 float: right;
 color:black;
 font-family:monospace;
 font-size: 12px;
-font-color:mediumpurple
 margin: 0;}
 
 a{color: mediumpurple;
@@ -27,25 +26,34 @@ text-decoration: none }
 .searchbar{
 text-align: center;
 text-decoration: none;
-justify-content: center;
+position: relative;
+right: 150px;
+top: -10px;}
 
+.searchbar input{
+    width: 1000px;
+    height: 36px;
 }
-.navbar{position:fixed;
-width: 100%;
+.navbar{
+width: 101%;
 text-decoration: none;
 margin:0;
 background-color: white;
-height: 8%}
+height: 10%;
+position: fixed; 
+top: -15px;
+left: -15px;
+}
 
 
 
-h1{color: mediumpurpl;
+h1{color: mediumpurple;
     text-decoration: none;
     font-size: 40px;
     font-weight: 1;
     font-family:monospace;
     text-shadow: 5px 5px 5px black;
-    text-align: center}
+    text-align: left}
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
