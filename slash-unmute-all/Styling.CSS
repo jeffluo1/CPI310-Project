@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-html{line-height: }
-header{background-color:white;
-    text-align: left;
-    }
-=======
 html{line-height:}
 
 header{
@@ -11,15 +5,23 @@ header{
     text-align: left;
     padding-left: 10%;
     padding-right: 8%;}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 74903da0621961b6c657cc2d06e552adf8397748
 body{
 	background-color: #dedfe0;
 	color:black;}
 
 ul,li{
 	background-color: black;
-	color:black;}
+	color:black;
+    padding-left:10%;
+    padding-right:10%;
+}
 
 li{
+<<<<<<< HEAD
 background-color: #dedfe0;
 display:inline;
 padding:20px 20px;
@@ -31,6 +33,17 @@ font-family:monospace;
 font-size: 17px;
 font-color:black;
 }
+=======
+	background-color: #dedfe0;
+	display:inline;
+	padding:20px 20px;
+	float: left;
+	display: block;
+	text-align:justify;
+	font-family:monospace;
+	font-size: 17px;
+	font-color:black}
+>>>>>>> 74903da0621961b6c657cc2d06e552adf8397748
 
 a{color: black;
 text-align: center;
@@ -42,12 +55,8 @@ a:hover{color:f67280;}
     align-self: center;
     align-content: center;
     text-align:center;
-    background-image:url("images/DSC_1291.JPG");
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;}
+    padding-bottom:2%;
+}
 
 h1{color: blacksmoke;
     text-decoration: none;
@@ -58,7 +67,7 @@ h1{color: blacksmoke;
     text-align: center;
     line-height: .5;
     margin-bottom: 1;
-    padding}
+}
 h2 {
 	color: blacksmoke;
 	font-size: 32px;
@@ -67,21 +76,44 @@ h2 {
     text-align: center;
     line-height: .5;
     margin-bottom: 1;
-    padding
 }
 h3 {
     color: blacksmoke;
-	font-size: 20px;
+	font-size: 24px;
     font-weight: 1;
     font-family:monospace;
     text-shadow: 5px 5px 5px #dedfe0;
     text-align: center;
-    line-height: .5;
-    margin-bottom: 1;
-    padding
+    line-height: 0.75em;
+    margin-top: 1.5em;
+}
+h4 {
+    color: blacksmoke;
+	font-size: 16px;
+    font-weight: 1;
+    font-family:monospace;
+    text-shadow: 5px 5px 5px #dedfe0;
+    text-align: center;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+    padding-left:30%;
+    padding-right:30%;
+}
+p{
+    color: blacksmoke;
+	font-size: 16px;
+    font-weight: 1;
+    font-family:monospace;
+    text-shadow: 5px 5px 5px #dedfe0;
+    text-align: left;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+    padding-left:20%;
+    padding-right:20%;
 }
 
 button{
+<<<<<<< HEAD
   background:#f8b195;
   color:black;
   border:none;
@@ -94,6 +126,20 @@ button{
   outline:none;
 
 font-family: monospace;
+=======
+	background:#9ad6d4;
+	color:black;
+	border:none;
+	position:relative;
+	height:80px;
+	width: 200px;
+	font-size:2em;
+	padding:0;
+	cursor:pointer;
+	transition:800ms ease all;
+	outline:none;
+	font-family: monospace;
+>>>>>>> 74903da0621961b6c657cc2d06e552adf8397748
 }
 button:hover{
   background: black;
@@ -118,14 +164,16 @@ button:after{
   bottom:0;
 }
 button:hover:before,button:hover:after{
-  width:100%;
+	width:100%;
     transition:1200ms ease all;}
-.bio{font-family: monospace;
+
+.bio{
+    font-family: monospace;
     font-size: 10pt;
     text-align: right;
     color:black;
      position: absolute;
-    top: 15%;
+    margin-top: 0%;
     right: 6%;
     width: 47%;
     height: 60%}
@@ -155,9 +203,10 @@ width:25px;}
 height:25px;
 width:25px;}
 
-.portrait{padding-left: 15%;
-padding-top: 0%;
-padding-bottom: 5%;}
+.portrait{
+    padding-left: 15%;
+    padding-top: 1%;
+    padding-bottom: 5%;}
     
 
 
@@ -203,7 +252,7 @@ padding-bottom: 5%;}
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid #f67280;
+  border: 4px solid #9ad6d4;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -238,9 +287,9 @@ padding-bottom: 5%;}
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #f67280;
+  border: medium solid #9ad6d4;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #f67280;
+  border-color: transparent transparent transparent #9ad6d4;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -252,9 +301,9 @@ padding-bottom: 5%;}
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #f67280;
+  border: medium solid #9ad6d4;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #f67280 transparent transparent;
+  border-color: transparent #9ad6d4 transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -265,7 +314,7 @@ padding-bottom: 5%;}
 /* The actual content */
 .tcontent {
   padding: 20px 30px;
-  background-color: #f67280;
+  background-color: #9ad6d4;
   position: relative;
   border-radius: 6px;
 }
