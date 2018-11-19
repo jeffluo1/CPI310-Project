@@ -110,3 +110,19 @@ padding-top: 6%;
     font-family: arial;
     
 }
+
+
+/*----------------------------------------Create Post Page Specific-------------------------------------------------------*/
+
+#title-input{width: 100%; height: 30px}
+
+#submit-post{
+    text-align: center;
+    margin-left: 645;
+    background-color: white;
+    color: mediumpurple;
+    border-radius: 7px;
+    width:90px;
+    height:38px;
+    font-family: monospace;
+}
