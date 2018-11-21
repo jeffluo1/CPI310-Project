@@ -1,21 +1,42 @@
-const http = require('http');
-const fs = require('fs');
+var express = require("express");
+var app = express();
+var port = 3000;
+var bodyParser = require('body-parser');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
-const hostname = '127.0.0.1';
-const port = 3000;
+//HOMEPAGE, DEFAULT PATH
+app.use(express.static(__dirname));
 
-fs.readFile('index.html', (err, html) => {
-	if (err) {
-		throw err;
-	} 
-	const server = http.createServer((req, res) => {
-		res.statusCode = 200;
-		res.setHeader('Content-type', 'text/html');
-		res.write(html);
-		res.end('Hello World');
-	});
+//SETUP DATABASE
+var mongoose = require("mongoose");
+mongoose.Promise = global.Promise;
+mongoose.connect("mongodb://localhost:27017/node-demo");
+var postSchema = new mongoose.Schema({
+    postTitle: String,
+    postContent: String
+});
+var newPost = mongoose.model("Post", postSchema);
 
-	server.listen(port, hostname, () => {
-		console.log('Server started on port ' + port);
-	});
+//Commented out default path
+/*
+app.get("/", (req, res) => {
+    res.sendFile(__dirname + "/create-post.html");
+});
+*/
+
+//POST SAVES TO DATABASE
+app.post("/addPost", (req, res) => {
+    var myData = new newPost(req.body);
+    myData.save()
+        .then(item => {
+            res.send("Post Created, Redirecting Shortly");
+        })
+        .catch(err => {
+            res.status(400).send("Unable to save to database");
+        });
+});
+
+app.listen(port, () => {
+    console.log("Server listening on port " + port);
 });
