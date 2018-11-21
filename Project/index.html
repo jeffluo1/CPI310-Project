@@ -11,7 +11,8 @@
 		<ul>
             
             <li><br><a href="about.html"><img src="Images/user.png" alt="User Settings" width="30px" height ="30px"></a></li>
-            <li><br><a href="sign-up.html"><button>Sign Up</button></a></li>
+            <li><br><a href="/register"><button>Sign Up</button></a></li>
+            <li><br><a href="/logout"><button>Log out</button></a></li>
              <li><br><button id="modalBtn" class="button">Log in</button></li>
             <li><br><div class="searchbar">  <input type="text" placeholder="Search.."></div></li>
             <h1><a href="index.html">/unmute ALL</a></h1>
@@ -31,9 +32,14 @@
         </div>
         
     <div class="modal-body">
-<input type="text" placeholder="username">   <br> <br>
-<input type="text" placeholder="password">    <br><br><br>
-<button id="log-in submit">Log in</button>
+  <form method="POST" action="/login">
+      <h4>login</h4>
+    <input type="text" placeholder="email" name="email" />
+    <input type="password" placeholder="password" name="password" />
+    <a href="/register">register for an account</a>
+    <input type="submit" value="login" />
+  </form>
+  
 
         </div>
     </div>

@@ -1,0 +1,24 @@
+<html>
+    
+    <link rel="stylesheet" type="text/css" href="Styling.CSS"/>
+
+
+
+  <body>
+  <form method="POST" action="/register">
+    <h1 Sign up></h1>
+    <p style = "font-size:30px;">Please fill this form to create an account</p>
+    <h5 style="color: red">{{ registerError }}</h5>
+    <input type="text" placeholder="email" name="email" />
+    <input type="password" placeholder="password" name="password" />
+    <input type="submit" value="register" />
+  </form>
+    
+                
+                <label>
+              <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me </label>
+
+                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                    <button onclick="location.href='index.html'" type="button" class="cancelbtn">Cancel</button>
+    </body>
