@@ -12,7 +12,7 @@ color:mediumpurple;
 li{
     background-color: white;
 display:inline;
-padding: 12px;
+padding: 12px 12px 12px 12px;
 float: right;
 color:black;
 font-family:monospace;
@@ -27,12 +27,13 @@ text-decoration: none }
 text-align: center;
 text-decoration: none;
 position: relative;
-right: 150px;
-top: -10px;}
+right: 10px;
+top: -3px;
+height: 2%;}
 
 .searchbar input{
-    width: 1000px;
-    height: 36px;
+    width: 10px;
+    height: 3px;
 }
 .navbar{
 width: 101%;
@@ -41,7 +42,7 @@ margin:0;
 background-color: white;
 height: 10%;
 position: fixed;
-top: -15px;
+top: -10px;
 left: -15px;
 }
 height: 8%}
@@ -96,13 +97,14 @@ padding-top: 6%;
 
 #create{
     text-align: center;
-    margin-left: 80;
+    margin-left: 20%;
     background-color: mediumpurple;
     color: white;
     border-radius: 5px;
-    width:180px;
-    height:45px;
-    font-family: monospace
+    width:67%;
+    height:6%;
+    font-family: monospace;
+    position: static;
 }
 
 #card-mission{
@@ -191,12 +193,12 @@ hr {
 button {
     background-color: mediumpurple;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 0px 20px;
     border: none;
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
+    height: 30px;
 }
 
 /* styling for cancel button */
