@@ -166,6 +166,7 @@ padding-top: 6%;
 @keyframes modalopen{
     from{opacity: 0}
     to {opacity: 1}
+}
 /* ----------------------------------------Sign Up Page Specific----------------------------------*/
 
 input[type=text], input[type=password] {
@@ -205,7 +206,7 @@ button {
 }
 
 /* cancel and signup button equal size*/
-.cancelbtn, .signuxpbtn {
+.cancelbtn, .signupbtn {
   float: left;
   width: 50%;
 }
@@ -227,7 +228,6 @@ button {
     .cancelbtn, .signupbtn {
        width: 100%;
     }
-<<<<<<< HEAD
 }
 
 /*--------------------------------------------template specifics--------------------------------------------*/
