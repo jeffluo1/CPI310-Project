@@ -127,6 +127,7 @@ padding-top: 6%;
     font-family: monospace;
 }
 
+<<<<<<< HEAD
 /*---------------------------------------Login Modal-----------------------------------------------------------------------*/
 
 .modal{
@@ -167,4 +168,68 @@ padding-top: 6%;
 @keyframes modalopen{
     from{opacity: 0}
     to {opacity: 1}
+=======
+/* ----------------------------------------Sign Up Page Specific----------------------------------*/
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: white;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* button styling */
+button {
+    background-color: mediumpurple;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+/* styling for cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* cancel and signup button equal size*/
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* padding to containers */
+.signupcontainer {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* when screen is small it changes the layout of the buttons cancel/signup */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+>>>>>>> 1f18d8e5bcf935028b95a596b2b1672c355cbfbd
 }
