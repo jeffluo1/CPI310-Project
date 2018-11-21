@@ -22,6 +22,7 @@
     
 <body>    
 <div class="row">
+  <!--
   <div class="leftcolumn">
     <div class="card">
         
@@ -32,10 +33,18 @@
            <a href ="submit-post.html"> <button id="submit-post">SUBMIT</button></a>
 
     </div>
-       
   </div>
-    
-    
+  -->
+  <div class="leftcolumn">
+      <div class="card">
+        <form method="post" action="/addPost">
+        <h2>create a post:</h2>
+        <input type="text" name="postTitle" placeholder="title" required>
+        <p><textarea name="postContent" rows="15" cols="99" placeholder="text (optional)"></textarea></p>
+        <input type="submit" value="submit">
+        </form>
+      </div>
+    </div>
     
   <div class="rightcolumn">
     <div class="card">
