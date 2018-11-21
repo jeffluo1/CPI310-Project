@@ -11,7 +11,7 @@
             
             <li><br><a href="about.html">User Settings</a></li>
             <li><br><a href="sign-up.html">Sign Up</a></li>
-            <li><br><a href="bio.html">Log in</a></li>
+            <li><br><button id="modalBtn" class="button">Log in</button></li>
             <li><br><div class="searchbar">  <input type="text" placeholder="Search.."></div></li>
             <h1><a href="index.html">/unmute ALL</a></h1>
 		</ul>
@@ -20,7 +20,22 @@
 </header>
     
     
-<body>    
+<body> 
+<div id="simpleModal" class="modal">
+    <div class="modal-content">
+    <div class="modal-header">
+            <span  class="closeBtn">&times;</span>
+        <h2>Log in:</h2>
+        </div>
+        
+    <div class="modal-body">
+<input type="text" placeholder="username">   <br> <br>
+<input type="text" placeholder="password">    <br><br><br>
+<button id="log-in submit">Log in</button>
+
+        </div>
+    </div> 
+    </div>
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
@@ -53,5 +68,7 @@
     </div>
   </div>
 </div>
+        <script src="main.js"></script>
+
 </body>
 </html>
