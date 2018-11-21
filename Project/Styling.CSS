@@ -127,7 +127,6 @@ padding-top: 6%;
     font-family: monospace;
 }
 
-<<<<<<< HEAD
 /*---------------------------------------Login Modal-----------------------------------------------------------------------*/
 
 .modal{
@@ -168,7 +167,6 @@ padding-top: 6%;
 @keyframes modalopen{
     from{opacity: 0}
     to {opacity: 1}
-=======
 /* ----------------------------------------Sign Up Page Specific----------------------------------*/
 
 input[type=text], input[type=password] {
@@ -231,5 +229,3 @@ button {
     .cancelbtn, .signupbtn {
        width: 100%;
     }
->>>>>>> 1f18d8e5bcf935028b95a596b2b1672c355cbfbd
-}
