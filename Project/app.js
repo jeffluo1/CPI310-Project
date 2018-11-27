@@ -16,7 +16,7 @@ var postSchema = new mongoose.Schema({
     postTitle: String,
     postContent: String
 });
-var newPost = mongoose.model("Post", postSchema);
+var post = mongoose.model("Post", postSchema);
 
 
 
@@ -28,16 +28,61 @@ app.get("/", (req, res) => {
 */
 
 //POST SAVES TO DATABASE
+
+//POST SAVES TO DATABASE
 app.post("/addPost", (req, res) => {
-    var myData = new newPost(req.body);
+    /*new post({
+		postTitle: req.body.postTitle,
+		postContent: req.body.postContent
+	}).save(function(err,doc){
+		if(err) res.json(err);
+		else	res.redirect('template.html');
+	})
+ 	res.redirect('template.html');
+ 	mongo.connect(url, function(err, db) {
+		assert.equal(null, err);
+		db.collection('post-data').insertOne(post, function(err, result) {
+			assert.equal(null, err);
+			console.log('Post inserted');
+			db.close();
+		});
+	});*/
+    
+    const myData = new post(req.body);
     myData.save()
         .then(item => {
-            res.send("Post Created, Redirecting Shortly");
+            console.log(myData);
+            //res.send("Post Created, Redirecting Shortly");
+            res.redirect('/template.html');
         })
         .catch(err => {
             res.status(400).send("Unable to save to database");
         });
+        
 });
+
+app.get('/template', function(req, res){
+	post.find({}, function(err, docs){
+		if(err) res.json(err);
+		else	res.render('index', {posts: docs});
+	});
+	
+	/*
+	mongo.connect(url, function(err, db) {
+		var postArray = [];
+		assert.equal(null,error);
+		var cursor = db.collection('post-data').find();
+		cursor.forEach(function(doc, err){
+			assert.equal(null, err);
+			postArray.push(doc);
+		}, function(){
+			db.close();
+			res.render('template', {posts: postArray})
+		});
+	});
+	*/
+});
+
 
 const sqlite = require('sqlite');
 const bcrypt = require('bcrypt');
@@ -184,6 +229,8 @@ app.get('/databasedump', async (req, res) => {
 app.use((req, res) => {
     res.status(404).send('file not found');
 })
+
+
 
 
 app.listen(port, () => {
